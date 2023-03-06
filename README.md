@@ -16,20 +16,27 @@ Exemple de fichier de configuration :
     "telegram_chat_id": "1234567890",
     "server_ip": "192.168.1.1"
 }
-json```
+```
 
 Remplacer TOKEN_TELEGRAM, ID_CHAT_TELEGRAM et IP_DU_SERVEUR par les valeurs correspondantes.
 
-##Utilisation
+### Linux
 
-Le script peut être exécuté en utilisant la commande suivante : python ping.py. Il peut être lancé en arrière-plan en ajoutant & à la fin de la commande.
+- Installer `ping` : `sudo apt install iputils-ping`
 
-##Support
-###Linux
-Le script peut être utilisé sur Linux. Assurez-vous d'avoir les privilèges suffisants pour exécuter la commande ping.
+### Windows (Français)
 
-###Windows 11 (français)
-Le script a été testé sur Windows 11 en français. La commande ping est utilisée pour vérifier l'état du serveur.
+- Installer `ping` : `choco install -y ping`
 
-###Windows 11 (anglais)
-Le script a été testé sur Windows 11 en anglais. La commande ping est utilisée pour vérifier l'état du serveur.
+### Windows (Anglais)
+
+- Installer `ping` : `choco install -y winping`
+
+## Utilisation
+
+- Lancer le script : `python ping.py`
+
+## Licence
+
+Ce projet est distribué sous la licence MIT. Voir le fichier `LICENSE` pour plus de détails.
+
