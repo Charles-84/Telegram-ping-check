@@ -35,8 +35,3 @@ Remplacer TOKEN_TELEGRAM, ID_CHAT_TELEGRAM et IP_DU_SERVEUR par les valeurs corr
 ## Utilisation
 
 - Lancer le script : `python ping.py`
-
-## Licence
-
-Ce projet est distribué sous la licence MIT. Voir le fichier `LICENSE` pour plus de détails.
-
